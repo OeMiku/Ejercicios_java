@@ -1,10 +1,10 @@
 
-package practicapendeja;
+package Suma;
 
 import java.util.Scanner;
 
 
-public class Practicapendeja {
+public class Suma {
 
 
     public static void main(String[] args) {
