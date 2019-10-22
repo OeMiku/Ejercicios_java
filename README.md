@@ -1,7 +1,4 @@
-# nisirve
-Solo lo hago por diversión , ni te sirve 
+#Escuela
 
-Creo nadie lo va ver (realmente lo espero, porque soy bien basicamente principiante)
-quiero que esto sea para subir poco a poco mis niveles de la escuela, principalmente los codigos son 
-Java.
+Mini proyectos orientados para aprender Java , espero sea util para que te ayude en lo que necesites.
 Buen dia <3
