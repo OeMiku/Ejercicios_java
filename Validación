@@ -4,4 +4,36 @@ hay que definir que es validación. Esto es lo que encontre de una fuente web ce
 Si el dato es CORRECTO, es decir, si es el tipo de dato que espera el sistema, éste lo aceptará. 
 Por el contrario si el dato es incorrecto, es decir, que no es el tipo de dato que se espera, entonces el sistema no lo aceptará."
 
+ejemplo validacion
+
+package validacion;
+
+import java.util.Scanner;
+
+public class Validacion {
+
+ 
+    public static void main(String args []) {
+    // tan sencillo es la validación como este codigo en este caso de entrada UN NOMBRE
+        
+        Scanner entrada = new Scanner (System.in);
+        System.out.println(" Ingresa el nombre : ");
+        //definir un valor de entrada de cadena de caracteres vacia 
+        //puede ser cualquier nombre, por eso la entrada esta vacia para ser guardada
+        String nombre = "";
+        nombre = entrada.nextLine();
+        
+        
+        //valida si la entrada es de cadena de caracteres tipo String
+        //en caso de un numero no va ser mostrada en la salida.
+       if (!nombre.matches("^[A-Za-z]*$")){
+           nombre = "";
+       }
+   
+        //imprime el "nombre" de salida 
+        System.out.println("Hola: " + nombre);
+    }
+    
+}
+
 
