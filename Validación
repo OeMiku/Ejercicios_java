@@ -3,3 +3,5 @@ hay que definir que es validación. Esto es lo que encontre de una fuente web ce
 "Cada una de las entradas de datos (Numerico, letras, etc) que provienen desde el exterior del sistema 
 Si el dato es CORRECTO, es decir, si es el tipo de dato que espera el sistema, éste lo aceptará. 
 Por el contrario si el dato es incorrecto, es decir, que no es el tipo de dato que se espera, entonces el sistema no lo aceptará."
+
+
